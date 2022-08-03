@@ -1,0 +1,49 @@
+.content__blog {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.blog__post {
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: var(--boxShadow);
+  margin-bottom: 15px;
+}
+
+.post__header {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+
+.header__image {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+}
+
+.image__img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header__options {
+  margin-left: auto;
+}
+
+.options__button {
+  border: 0;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.content__textarea {
+  padding: 0 10px 5px 10px;
+}
+
+.images__img {
+  width: 100%;
+}
